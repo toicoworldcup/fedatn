@@ -8,7 +8,7 @@ import { Attendance } from '../models/attendance.model';
   providedIn: 'root'
 })
 export class AttendanceService {
-  private apiUrl = 'http://localhost:8080/attendance';
+  private apiUrl = 'https://bedatn-production-1dfa.up.railway.app/attendance';
 
   constructor(private http: HttpClient) { }
 

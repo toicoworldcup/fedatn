@@ -8,7 +8,7 @@ import { Semester } from "../models/semester.model";
   providedIn: "root",
 })
 export class SemesterService {
-  private baseUrl = "http://localhost:8080/semesters";
+  private baseUrl = "https://bedatn-production-1dfa.up.railway.app/semesters";
 
   constructor(private http: HttpClient) {}
 

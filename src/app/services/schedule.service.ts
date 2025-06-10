@@ -8,7 +8,7 @@ import { Schedule } from '../models/schedule.model'; // Import model
   providedIn: 'root'
 })
 export class ScheduleService {
-  private baseUrl = 'http://localhost:8080/schedule'; // Điều chỉnh URL nếu cần
+  private baseUrl = 'https://bedatn-production-1dfa.up.railway.app/schedule'; // Điều chỉnh URL nếu cần
 
   constructor(private http: HttpClient) { }
 

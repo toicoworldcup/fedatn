@@ -7,7 +7,7 @@ import { Batch } from '../models/batch.model';
   providedIn: 'root'
 })
 export class BatchService {
-  private baseUrl = 'http://localhost:8080/batches'; // Điều chỉnh URL API của bạn
+  private baseUrl = 'https://bedatn-production-1dfa.up.railway.app/batches'; // Điều chỉnh URL API của bạn
 
   constructor(private http: HttpClient) { }
 

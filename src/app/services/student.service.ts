@@ -31,12 +31,12 @@ interface ChangePasswordRequest {
   providedIn: "root",
 })
 export class StudentService {
-  private apiUrl = "http://localhost:8080/students";
-  private apiUrl2 = "http://localhost:8080/api/studentinfo";
-  private apiUrl3 = "http://localhost:8080/dangkilop";
-  private apiUrlDkhp = "http://localhost:8080/dangkihocphan";
-  private clazzesUrl = "http://localhost:8080/clazzes";
-  private gradesUrl = "http://localhost:8080/grades";
+  private apiUrl = "https://bedatn-production-1dfa.up.railway.app/students";
+  private apiUrl2 = "https://bedatn-production-1dfa.up.railway.app/api/studentinfo";
+  private apiUrl3 = "https://bedatn-production-1dfa.up.railway.app/dangkilop";
+  private apiUrlDkhp = "https://bedatn-production-1dfa.up.railway.app/dangkihocphan";
+  private clazzesUrl = "https://bedatn-production-1dfa.up.railway.app/clazzes";
+  private gradesUrl = "https://bedatn-production-1dfa.up.railway.app/grades";
 
   constructor(private http: HttpClient) {}
 

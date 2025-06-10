@@ -14,8 +14,8 @@ export interface AssignmentRequest {
   providedIn: "root",
 })
 export class ClazzService {
-  private baseUrl = "http://localhost:8080/clazzes";
-  private baseUrl2 = "http://localhost:8080/courses"; 
+  private baseUrl = "https://bedatn-production-1dfa.up.railway.app/clazzes";
+  private baseUrl2 = "https://bedatn-production-1dfa.up.railway.app/courses"; 
 
   constructor(private http: HttpClient) {}
 

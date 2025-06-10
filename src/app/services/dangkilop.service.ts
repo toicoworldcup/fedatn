@@ -9,7 +9,7 @@ import { UpdateRequestList } from '../models/UpdateRequestList.model';
   providedIn: 'root'
 })
 export class DangKiLopService {
-  private baseUrl = 'http://localhost:8080/dangkilop';
+  private baseUrl = 'https://bedatn-production-1dfa.up.railway.app/dangkilop';
 
   constructor(private http: HttpClient) { }
 

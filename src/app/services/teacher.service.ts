@@ -17,7 +17,7 @@ interface ChangePasswordRequest {
   providedIn: "root",
 })
 export class TeacherService {
-  private apiUrl = "http://localhost:8080/teachers";
+  private apiUrl = "https://bedatn-production-1dfa.up.railway.app/teachers";
 
   constructor(private http: HttpClient) {}
 
