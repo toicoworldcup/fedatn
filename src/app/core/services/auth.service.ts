@@ -10,7 +10,7 @@ import { isPlatformBrowser } from '@angular/common'; // Thêm isPlatformBrowser
 export class AuthService {
   // Thay đổi apiUrl này nếu backend của bạn không chạy trên localhost
   // Khi deploy lên Vercel, bạn cần backend có URL công khai, không phải localhost
-  private apiUrl = 'http://localhost:8080/api/auth/login'; 
+  private apiUrl = 'https://bedatn-production-1dfa.up.railway.app/api/auth/login'; 
 
   private isBrowser: boolean; // Thêm biến để kiểm tra môi trường
 
